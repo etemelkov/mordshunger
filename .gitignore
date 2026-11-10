@@ -1,0 +1,38 @@
+# Private Datenbank-Zugangsdaten
+/php/config.php
+
+# Private API-Schlüssel und Chat-Zugangsdaten
+/php/chat-config.php
+
+# Falls ältere Konfigurationen im Hauptordner liegen
+/config.php
+/chat-config.php
+
+# Lokale Umgebungsvariablen
+.env
+.env.*
+!.env.example
+
+# VS-Code-Einstellungen und SFTP-Zugangsdaten
+/.vscode/
+
+# Privater Konfigurationsordner
+/mordshunger-private/
+
+# Datenbankexporte und Protokolle
+*.sql
+*.sql.gz
+*.log
+
+# Sicherungskopien und ZIP-Dateien
+*.bak
+*.backup
+*.zip
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Private Schlüssel
+*.pem
+*.key
